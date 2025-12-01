@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(
     page_title="Wrap Cost Calculator", 
     layout="wide", 
-    page_icon="app_icon.png", # This puts a clapperboard in the browser tab
+    page_icon="https://github.com/Dubzz2025/production_calc/blob/main/app_icon.png", # This puts a clapperboard in the browser tab
     initial_sidebar_state="collapsed" # Starts with sidebar closed for a cleaner mobile look
 )
 
