@@ -5,10 +5,21 @@ import pandas as pd
 st.set_page_config(
     page_title="Wrap Cost Calculator", 
     layout="wide", 
-    page_icon="https://github.com/Dubzz2025/production_calc/blob/main/app_icon.png", # This puts a clapperboard in the browser tab
+    page_icon="https://github.com/Dubzz2025/production_calc/blob/main/app_icon.png", 
     initial_sidebar_state="collapsed" # Starts with sidebar closed for a cleaner mobile look
 )
+logo_url = "https://raw.githubusercontent.com/Dubzz2025/production_calc/blob/main/app_icon.png"
 
+st.markdown(
+    f"""
+    <head>
+        <link rel="icon" type="image/png" href="{logo_url}">
+        <link rel="shortcut icon" type="image/png" href="{logo_url}">
+        <link rel="apple-touch-icon" href="{logo_url}">
+    </head>
+    """,
+    unsafe_allow_html=True
+)
 # --- 2. SIDEBAR CONTROLS ---
 with st.sidebar:
     st.header("📂 File Management")
