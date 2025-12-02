@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="https://github.com/Dubzz2025/production_calc/blob/main/app_icon.png", 
     initial_sidebar_state="collapsed" # Starts with sidebar closed for a cleaner mobile look
 )
-logo_url = "https://raw.githubusercontent.com/Dubzz2025/production_calc/blob/main/app_icon.png"
+logo_url = "https://raw.githubusercontent.com/Dubzz2025/production_calc/ccfbb0a6b729e45aa3b0865e2c13a6a157089f0a/app_icon.png"
 
 st.markdown(
     f"""
